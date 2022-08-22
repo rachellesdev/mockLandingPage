@@ -1,0 +1,33 @@
+.friendContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    padding: 40px;
+}
+
+.p {
+    font-size: 14px;
+    color: #888888;
+    margin: 44px 0 19px 0;
+}
+
+.btn {
+    width: 260px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}

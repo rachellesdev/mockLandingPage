@@ -1,8 +1,9 @@
 import React from 'react'
+import S from './Label.module.css'
 
 const Label = ({label}) => {
   return (
-    <label>{label}</label>
+    <label className={S.label}>{label}</label>
   )
 }
 

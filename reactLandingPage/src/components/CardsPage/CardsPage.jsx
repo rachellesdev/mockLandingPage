@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useEffect } from "react";
 import Button from '../Button/Button';
 import Card from '../Card/Card'
+import S from './CardsPage.module.css'
 
 const CardsPage = () => {
 
@@ -26,8 +27,8 @@ const CardsPage = () => {
     }, [page]);
 
     return (
-        <div>
-            <div>
+        <div className={S.page}>
+            <div className={S.cardsContainer}>
                 {products.length > 0 &&
                     products.map((item, index) => {
                         return (
@@ -44,7 +45,7 @@ const CardsPage = () => {
                         );
                     })}
             </div>
-            <Button onClick={nextPage} subtitle="Adquira mais produtos aqui" />
+            <Button style={S.btn} onClick={nextPage} subtitle="Adquira mais produtos aqui" />
         </div>
     )
 }

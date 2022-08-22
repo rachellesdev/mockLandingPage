@@ -45,7 +45,7 @@ const CardsPage = () => {
                         );
                     })}
             </div>
-            <Button style={S.btn} onClick={nextPage} subtitle="Adquira mais produtos aqui" />
+            <Button style={S.btn} onClick={nextPage} subtitle="Ainda mais produtos aqui" />
         </div>
     )
 }

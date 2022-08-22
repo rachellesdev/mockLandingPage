@@ -1,0 +1,45 @@
+.sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.form {
+    margin-right: 100px;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.radioContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.text {
+    color: #888888;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+.input {
+    width: 340px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.btn{
+    font-size: 16px;
+    background: #FFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    color: #888888;
+    height: 39px;
+    width: 340px;
+}
